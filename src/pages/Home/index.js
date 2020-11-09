@@ -12,6 +12,7 @@ const Home = () => {
       Page d'accueil tu connais oueoue
       On est là
       ouais la famille tu connais
+      bite
     </div>
   )
 }
