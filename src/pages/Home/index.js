@@ -10,6 +10,7 @@ const Home = () => {
       <Menu />
 
       Page d'accueil tu connais oueoue
+      On est là
     </div>
   )
 }
