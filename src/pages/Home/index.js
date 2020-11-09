@@ -9,7 +9,7 @@ const Home = () => {
     <div className={styles.container}>
       <Menu />
 
-      Page d'accueil
+      Page d'accueil tu connais
     </div>
   )
 }
