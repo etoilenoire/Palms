@@ -10,7 +10,7 @@ const Home = () => {
       <Menu />
 
       Page d'accueil tu connais oueoue
-      On est là
+      On est là pepouze
       ouais la famille tu connais
       
     </div>
