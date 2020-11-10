@@ -4,13 +4,19 @@ import { Link } from 'react-router-dom'
 const Menu = () => {
   return (
     <aside>
-      <span>Menu</span>
       <ul>
         <li>
-          <Link to= "/">Artistes</Link>
+          <Link to= "/HomePage">Home</Link>
         </li>
-        <li>Albums</li>
-        <li>Crédits</li>
+        <li>
+          <Link to= "/StreamPage">Stream</Link>
+        </li>
+        <li>
+          <Link to= "/ResearchPage">Recherche</Link>
+        </li>
+        <li>
+          <Link to= "/LibraryPage">Bibliothèque</Link>
+        </li>
       </ul>
     </aside>
   )

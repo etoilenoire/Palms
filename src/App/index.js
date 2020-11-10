@@ -1,15 +1,14 @@
 import styles from './App.module.css'
-import Home from 'pages/HomePage'
-import Button from '../components/Button'
-import Input from '../components/Input'
+import { Link } from 'react-router-dom';
+import HomePage from 'pages/HomePage'
+
 
 function App() {
   return (
     <div>
-      <p className={styles.red}>Blabla</p>
-      <Home />
-      <Button />
-      <Input />
+  
+      <HomePage/>
+      
     </div>
   );
 }

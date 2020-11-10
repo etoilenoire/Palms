@@ -1,10 +1,9 @@
-
 import React from 'react'
 
 const Button = () => {
     return (
         <button>
-            ceci est un button
+            ceci est un bouton
         </button>
     )
 }
