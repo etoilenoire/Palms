@@ -11,6 +11,7 @@ import CardArtist from '../components/CardArtist';
 function App() {
   return (
     <div>
+      {/* <HomePage/> */}
       <Title/>
       <Subtitle/>
       <Lien/>
