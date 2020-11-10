@@ -1,21 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import Input from '../../components/Input'
 import Lien from '../../components/Lien'
 import Title from '../../components/Title'
-import Input from '../../components/Input'
-import Button from '../../components/Button'
 
 const LogIn = () => {
-    // return (
-    //     <Title/>
-    //     <div>
-    //         <Input/>
-    //         <Input/>
-    //         <Button/>
-    //         <Lien/>
-    //     </div>
-    // )
+    return (
+        <div>
+         <Title/>
+            <form>
+                Email
+                <Input type="email" />
+                <br />
+                <br />
+                <Input type="password"/>
+                <br />
+                <Link to= "/HomePage"><Button/></Link>
+            </form>
+            <br />
+         <Lien/>
+        </div>
+    )
 }
 
 export default LogIn

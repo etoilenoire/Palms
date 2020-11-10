@@ -4,7 +4,9 @@ const UrlBanner = "https://i.pinimg.com/originals/52/e6/e5/52e6e500f32ea590c7686
 
 const Banner = () => {
     return (
+        <div>
         <img src={UrlBanner} />
+        </div>
     )
 }
 

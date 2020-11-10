@@ -2,10 +2,10 @@ import React from 'react'
 
 const url ="./Lien"
 
-const lien = () => {
+const Lien = () => {
     return (
         <a href={url}>Link</a>
     )
 }
 
-export default lien
+export default Lien
