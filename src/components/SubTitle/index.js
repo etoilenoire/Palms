@@ -2,9 +2,9 @@ import React from 'react'
 
 const subtitre = "Subtitre"
 
-const Subtitle = () => {
+const Subtitle = ({children}) => {
     return (
-        <h2>{subtitre} </h2>
+        <h2>{children}</h2>
     )
     
 }
