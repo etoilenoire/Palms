@@ -13,11 +13,7 @@ import HomePage from '../pages/HomePage';
 function App() {
   return (
     <div>
-<<<<<<< HEAD
       <ArtistPage />
-=======
-      <Header />
->>>>>>> 9c61223eae7fd143145f78bc03589a76e162b2d7
       <LogIn />
       <Signup />
       <HomePage />
@@ -25,4 +21,4 @@ function App() {
   );
 }
 
-export default App
+export default App 
