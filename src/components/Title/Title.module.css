@@ -1,3 +1,5 @@
-h1.dot {
-    fill: aqua;
+h1 {
+    font-size: 37px;
+    fill: #CFB5C8;
+    font-family: "Nexa Bold";
 }
