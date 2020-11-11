@@ -4,10 +4,8 @@ import LogIn from '../pages/LoginPage';
 import Header from '../components/Header';
 import Signup from '../pages/SignUpPage';
 import ArtistPage from '../pages/ArtistPage';
-import HomePage from '../pages/HomePage';
+import Homepage from '../pages/Homepage';
 
-
-{/*import HomePage from '../pages/HomePage';*/}
 
 
 function App() {
@@ -16,7 +14,7 @@ function App() {
       <ArtistPage />
       <LogIn />
       <Signup />
-      <HomePage />
+      <Homepage />
     </div>
   );
 }
