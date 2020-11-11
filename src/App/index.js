@@ -8,6 +8,8 @@ import Header from '../components/Header';
 import HomePage from '../pages/HomePage';
 import Menu from '../components/Menu';
 import ResearchPage from '../pages/ResearchPage';
+import StreamPage from '../pages/StreamPage';
+import LibraryPage from '../pages/LibraryPage';
 
 
 
@@ -20,7 +22,9 @@ function App() {
       
         <Switch>
           <Route path="/HomePage" component={HomePage} />
+          <Route path="/StreamPage" component={StreamPage} />
           <Route path="/ResearchPage" component={ResearchPage} />
+          <Route path="/LibraryPage" component={LibraryPage} />
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
         </Switch>

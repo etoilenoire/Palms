@@ -9,7 +9,7 @@ import Researchbar from '../../components/SearchBar'
 const ResearchPage = () => {
     return (
         <div>
-            <Header>Search</Header>
+            <Header>Search.</Header>
             <Input />
 
             <Menu />
