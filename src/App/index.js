@@ -5,6 +5,8 @@ import LogIn from '../pages/LoginPage';
 import Signup from '../pages/SignUpPage';
 import ArtistPage from '../pages/ArtistPage';
 import Header from '../components/Header';
+import HomePage from '../pages/HomePage';
+import Menu from '../components/Menu';
 
 
 
@@ -12,6 +14,7 @@ import Header from '../components/Header';
 function App() {
   return (
     <div>
+      <Header />
       <BrowserRouter>
         <Switch>
           <Route path="/HomePage" component={HomePage} />
@@ -21,6 +24,7 @@ function App() {
       </BrowserRouter>
       <LogIn />
       <Signup />
+      <Menu />
 
       
 
