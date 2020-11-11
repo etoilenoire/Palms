@@ -14,20 +14,20 @@ import Menu from '../components/Menu';
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
+      <Header />
+      
         <Switch>
           <Route path="/HomePage" component={HomePage} />
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />
         </Switch>
-      </BrowserRouter>
-      <LogIn />
-      <Signup />
+      
+      
       <Menu />
 
       
-
+      </BrowserRouter>
     </div>
   );
 }
