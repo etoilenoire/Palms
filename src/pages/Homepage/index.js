@@ -10,7 +10,7 @@ import Subtitle from '../../components/SubTitle'
 const HomePage = () => {
     return (
         <div>
-         <Header />
+         <Header>Home</Header>
             <div className="HappnNow">
                 <Subtitle>Happening now.</Subtitle>
                 <CardConcert />

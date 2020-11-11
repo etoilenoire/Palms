@@ -1,6 +1,5 @@
 import React from 'react'
 
-const subtitre = "Subtitre"
 
 const Subtitle = ({children}) => {
     return (

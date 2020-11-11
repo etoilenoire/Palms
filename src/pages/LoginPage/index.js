@@ -8,7 +8,7 @@ import Title from '../../components/Title'
 const LogIn = () => {
     return (
         <div>
-         <Title/>
+         <Title>Log In</Title>
             <form>
                 Email
                 <Input type="email" />

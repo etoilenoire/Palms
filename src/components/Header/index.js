@@ -3,10 +3,10 @@ import ProfilePic from '../ProfilePic'
 import Title from '../Title'
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = ({children}) => {
     return (
         <div>
-           <Title />
+           <Title>{children}</Title>
            <ProfilePic />
         </div>
     )
