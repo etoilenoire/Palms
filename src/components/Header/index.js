@@ -7,7 +7,6 @@ const Header = () => {
         <div>
            <Title />
            <ProfilePic />
-
         </div>
     )
 }
