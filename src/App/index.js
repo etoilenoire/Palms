@@ -15,14 +15,14 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      <Header />
+
       
         <Switch>
           <Route path="/HomePage" component={HomePage} />
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />
         </Switch>
-      
+       
       
       <Menu />
 
