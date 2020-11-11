@@ -5,7 +5,7 @@ import Input from '../../components/Input'
 import Lien from '../../components/Lien'
 import Title from '../../components/Title'
 
-const Signup = () => {
+const Signup = (props) => {
     return (
         <div>
          <Title>Sign Up</Title>

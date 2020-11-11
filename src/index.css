@@ -12,14 +12,14 @@
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   padding: 0;
   background-color: #1F1F1F;
   font-family: "Nexa Bold";
 }
 
 form {
-  font-family: "Nexa Light";
+  font-family: "Nexa Bold";
 }
 
 code {
