@@ -14,9 +14,10 @@ const LogIn = () => {
                 <Input type="email" />
                 <br />
                 <br />
+                Password
                 <Input type="password"/>
                 <br />
-                <Link to= "/HomePage"><Button/></Link>
+                <Link to= "/HomePage"><Button /></Link>
             </form>
             <br />
          <Lien/>
