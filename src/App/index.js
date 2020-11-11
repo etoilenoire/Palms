@@ -2,6 +2,8 @@ import styles from './App.module.css'
 import { Link } from 'react-router-dom'
 import LogIn from '../pages/LoginPage';
 import SignIn from '../pages/SignUpPage';
+import Header from '../components/Header';
+
 
 {/*import HomePage from '../pages/HomePage';*/}
 
@@ -9,6 +11,7 @@ import SignIn from '../pages/SignUpPage';
 function App() {
   return (
     <div>
+      <Header />
       <LogIn />
       <SignIn />
       {/*<HomePage />*/}
