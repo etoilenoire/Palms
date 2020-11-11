@@ -7,7 +7,7 @@ import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'
 import Subtitle from '../../components/SubTitle'
 
-const HomePage = () => {
+const HomePage = (props) => {
     return (
         <div>
          <Header>Home</Header>
