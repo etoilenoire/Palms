@@ -1,6 +1,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
+import styles from './Input.module.css'
 
 
 const Input = (props) => {
@@ -8,9 +9,11 @@ const Input = (props) => {
     
     return (
       <div>
-        <input
+        <input className={styles.auth} 
+          // placeholder='Entrez votre mail'
           type={type}
         />
+        
       </div>
     )
   }

@@ -5,7 +5,7 @@ import Input from '../../components/Input'
 import Lien from '../../components/Lien'
 import Title from '../../components/Title'
 
-const SignIn = () => {
+const Signup = () => {
     return (
         <div>
          <Title/>
@@ -32,4 +32,4 @@ const SignIn = () => {
     )
 }
 
-export default SignIn
+export default Signup
