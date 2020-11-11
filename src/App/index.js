@@ -7,6 +7,7 @@ import ArtistPage from '../pages/ArtistPage';
 import Header from '../components/Header';
 import HomePage from '../pages/HomePage';
 import Menu from '../components/Menu';
+import ResearchPage from '../pages/ResearchPage';
 
 
 
@@ -19,10 +20,11 @@ function App() {
       
         <Switch>
           <Route path="/HomePage" component={HomePage} />
+          <Route path="/ResearchPage" component={ResearchPage} />
           <Route path="/SignUpPage" component={Signup} />
-          <Route path="/LoginPage" component={LogIn} />
+          <Route path="/LoginPage" component={LogIn} />       
         </Switch>
-       
+        
       
       <Menu />
 
