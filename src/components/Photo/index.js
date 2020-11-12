@@ -4,7 +4,7 @@ const UrlImage = "https://i.pinimg.com/originals/27/3c/43/273c4341356729b7d4ad25
 
 const Photo = () => {
     return (
-        <img src={UrlImage} />
+        <img src={UrlImage} alt="" />
     )
 }
 
