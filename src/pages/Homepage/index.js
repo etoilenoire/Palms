@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import Banner from '../../components/Banner'
-import CardArtist from '../../components/CardArtist';
+// import CardArtist from '../../components/CardArtist';
 import CardConcert from '../../components/CardConcert';
 import Header from '../../components/Header'
 import Lien from '../../components/Lien'
@@ -23,7 +23,7 @@ const HomePage = (props) => {
             
             <div className="TrendNow">
                 <Subtitle>Trends.</Subtitle>
-                <CardArtist />
+                {/* <CardArtist /> */}
                 <Link to="../TrendsNowPage">Show All</Link>
             </div>
 
