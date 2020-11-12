@@ -8,11 +8,13 @@ import LibraryPage from '../pages/LibraryPage';
 
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
+import Banner from "../components/Banner";
 
 
 
 
 function App() {
+  console.log('test')
   return (
     <div>
       <BrowserRouter>
@@ -34,6 +36,7 @@ function App() {
 
       
       </BrowserRouter>
+      <Banner/>
     </div>
   );
 }
