@@ -25,7 +25,9 @@ function App() {
           <Route path="/HappenNowPage" component={HappenNowPage} />       
         </Switch>
         
+
       
+
       <Menu />
 
       
