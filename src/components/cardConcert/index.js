@@ -4,7 +4,7 @@ import NomArtist from '../NomArtist'
 import NomConcert from '../NomConcert'
 import Add from '../Add+'
 import {
-    CardDeck, Card, CardImg, CardText, CardBody,
+    CardDeck, Card, CardImg, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
 

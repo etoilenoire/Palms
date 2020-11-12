@@ -5,7 +5,7 @@ const UrlBanner = "./assets/images/museXgarorock.png"
 const Banner = () => {
     return (
         <div>
-        <img src={UrlBanner} />
+        <img src={UrlBanner} alt=""/>
         </div>
     )
 }

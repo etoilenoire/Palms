@@ -1,9 +1,8 @@
 import React from 'react'
-import Photo from '../Photo'
 import NomArtist from '../NomArtist'
 import NbFollowers from '../NbFollowers'
 import {
-    CardDeck, Card, CardImg, CardText, CardBody,
+    Card, CardImg, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
 
