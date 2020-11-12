@@ -6,19 +6,19 @@ import { faSearch, faHome, faStream, faMusic } from '@fortawesome/free-solid-svg
 
 
 const tabs = [{
-  route: "/HomePage",
+  route: "/homepage",
   icon: faHome,
   label: "Home"
 },{
-  route: "/StreamPage",
+  route: "/streampage",
   icon: faMusic,
   label: "Stream"
 },{
-  route: "/ResearchPage",
+  route: "/researchpage",
   icon: faSearch,
   label: "Recherche"
 },{
-  route: "/LibraryPage",
+  route: "/librarypage",
   icon: faStream,
   label: "Bibliothèques"
 }]
