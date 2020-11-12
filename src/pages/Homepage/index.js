@@ -4,7 +4,7 @@ import Banner from '../../components/Banner'
 // import CardArtist from '../../components/CardArtist';
 import CardConcert from '../../components/CardConcert';
 import Header from '../../components/Header'
-import Lien from '../../components/Lien'
+// import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'
 import Subtitle from '../../components/SubTitle'
 import styles from './HomePage.module.css'
