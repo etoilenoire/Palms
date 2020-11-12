@@ -5,8 +5,9 @@ import Menu from '../components/Menu';
 import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
-import HomePage from '../pages/HomePage';
+
 import HappenNowPage from '../pages/HappenNowPage';
+import HomePage from '../pages/HomePage';
 
 
 

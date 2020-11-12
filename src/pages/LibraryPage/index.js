@@ -10,8 +10,8 @@ const LibraryPage = () => {
         <div>
           <Header>Bibliothèque.</Header>
             <div>
-                <Button>Playlist.</Button>/>
-                <Button>Artists.</Button>/>
+                <Button>Playlist.</Button>
+                <Button>Artists.</Button>
             </div>
           <Menu />
         </div>

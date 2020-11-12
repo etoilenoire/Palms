@@ -1,5 +1,22 @@
+.header {
+    margin: 0;
+}
+
 .rectangle{
     width: 122px;
     height: 14px;
     background-color: rgb(202, 155, 221);
+    margin-top: 37px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-left: 37px;
+    position: absolute;
+}
+
+h1 {
+    font-size: 37px;
+    font-family: "Nexa Bold";
+    color: white;
 }

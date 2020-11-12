@@ -5,9 +5,10 @@ import styles from './Header.module.css'
 
 const Header = ({children}) => {
     return (
-        <div class={styles.rectangle}>
-           <Title>{children}</Title>
-           <ProfilePic />
+        <div className={styles.header}>
+            <div className={styles.title}><Title>{children}</Title></div>
+            <ProfilePic />
+            <div className={styles.rectangle}/>
         </div>
 
     )
