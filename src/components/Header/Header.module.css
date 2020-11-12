@@ -1,5 +1,17 @@
 .Rectangle{
-    width: 125px;
+
+    display: grid;
+    grid-template-areas: ‘logo nav’;
+    grid-area: nav;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    justify-items: center;
+    /* width: 125px;
     height: 25px;
     background-color: rgb(202, 155, 221);
+    box-sizing: border-box; */
+}
+
+.profilepic {
+    display: block;
 }
