@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavItem} from 'reactstrap';
+import { Nav, Navbar, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHome, faStream, faMusic } from '@fortawesome/free-solid-svg-icons';
@@ -33,9 +33,9 @@ const Menu = (props) => {
       tabs.map((tab, index) =>(
         <NavItem key={`tab-${index}`}>
           <NavLink to={tab.route} className="nav-link bottom-nav-link" activeClassName="active">
-            <div className="row d-flex flex-column justify-content-center align-items-center">
+              <div >
               <FontAwesomeIcon size="lg" icon={tab.icon}/>
-              <div className="bottom-tab-label">{tab.label}</div>
+              <div >{tab.label}</div>
             </div>
           </NavLink>
         </NavItem>
@@ -44,6 +44,7 @@ const Menu = (props) => {
   </div>
 </Nav>
 </nav>
+
 
 )
 };
