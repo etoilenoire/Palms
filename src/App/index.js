@@ -8,7 +8,7 @@ import LibraryPage from '../pages/LibraryPage';
 
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-
+import Player from "../components/player";
 
 
 
@@ -28,7 +28,7 @@ function App() {
         </Switch>
         
 
-      
+        <Player />
 
       <Menu />
 
