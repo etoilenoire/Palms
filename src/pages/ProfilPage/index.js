@@ -11,6 +11,9 @@ const ProfilPage = () => {
             <div>
                 <Subtitle> My preferences </Subtitle>
             </div>
+
+                
+
         </div>
     )
 }
