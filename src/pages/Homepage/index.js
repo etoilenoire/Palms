@@ -6,12 +6,13 @@ import Header from '../../components/Header'
 import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'
 import Subtitle from '../../components/SubTitle'
+import styles from './HomePage.module.css'
 
 const HomePage = (props) => {
     return (
         <div>
          <Header>Home</Header>
-            <div className="HappnNow">
+            <div className={styles.box}>
                 <Subtitle>Happening now.</Subtitle>
                 <CardConcert />
                 <Lien />
@@ -19,7 +20,7 @@ const HomePage = (props) => {
 
          <Banner />
 
-            <div className="TrendNow">
+            <div className={styles.box}>
                 <Subtitle>Trends.</Subtitle>
                 <CardArtist />
                 <Lien />

@@ -1,5 +1,9 @@
 .Rectangle{
     width: 125px;
     height: 25px;
+<<<<<<< HEAD
     background-color: #CFB5C8;
+=======
+    background-color: rgb(202, 155, 221);
+>>>>>>> 56269fb0aa7acd2ffaf31ae478c8408ff00b3b11
 }
