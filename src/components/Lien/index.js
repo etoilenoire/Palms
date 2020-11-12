@@ -4,7 +4,7 @@ const url ="./Lien"
 
 const Lien = () => {
     return (
-        <a href={url}>Link</a>
+        <a href={url}>Show All</a>
     )
 }
 

@@ -18,10 +18,7 @@ const HomePage = (props) => {
                 <Lien />
             </div>
 
-            <div classeName="Banner">
-            <Subtitle>A l'affiche</Subtitle>
-                <Banner />
-            </div>
+          <Banner />
             
             <div className="TrendNow">
                 <Subtitle>Trends.</Subtitle>
