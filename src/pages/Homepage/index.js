@@ -15,7 +15,7 @@ const HomePage = (props) => {
          <Header>Home</Header>
             <div className={styles.box}>
                 <Subtitle>Happening now.</Subtitle>
-                <CardConcert />
+                {/* <CardConcert /> */}
                 <Link to="../HappenNowPage">Show All</Link>
             </div>
 
