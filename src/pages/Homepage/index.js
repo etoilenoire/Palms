@@ -18,9 +18,11 @@ const HomePage = (props) => {
                 <Lien />
             </div>
 
-         <Banner />
-
-            <div className={styles.box}>
+            <div classeName="Banner">
+                <Banner />
+            </div>
+            
+            <div className="TrendNow">
                 <Subtitle>Trends.</Subtitle>
                 <CardArtist />
                 <Lien />
