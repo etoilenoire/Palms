@@ -1,7 +1,13 @@
 .img{
+<<<<<<< HEAD
+border-radius: 50%;
+height: 50px;
+float: right;
+=======
     border-radius: 43px;
     height: 43px;
     float: right;
     margin-right: 38px;
     margin-top: 16px;
+>>>>>>> 6277f877e99be0296a05b5377c77218a812e0bd4
 }
