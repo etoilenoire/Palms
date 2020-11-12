@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import Banner from '../../components/Banner'
 import CardArtist from '../../components/CardArtist'
 import CardConcert from '../../components/CardConcert'
@@ -15,7 +16,7 @@ const HomePage = (props) => {
             <div className={styles.box}>
                 <Subtitle>Happening now.</Subtitle>
                 <CardConcert />
-                <Lien />
+                <Link to="../HappenNowPage">Show All</Link>
             </div>
 
           <Banner />
@@ -23,7 +24,7 @@ const HomePage = (props) => {
             <div className="TrendNow">
                 <Subtitle>Trends.</Subtitle>
                 <CardArtist />
-                <Lien />
+                <Link to="../TrendsNowPage">Show All</Link>
             </div>
 
          <Menu />

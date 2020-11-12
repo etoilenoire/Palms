@@ -11,8 +11,6 @@ import Player from '../components/player';
 import ProfilPage from '../pages/ProfilPage';
 
 
-
-
 function App() {
   console.log('test')
   return (
