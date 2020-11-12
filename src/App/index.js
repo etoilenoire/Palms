@@ -7,7 +7,8 @@ import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-import Player from '../components/player'
+import Player from '../components/player';
+import ProfilPage from '../pages/ProfilPage';
 
 
 
@@ -26,6 +27,8 @@ function App() {
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
           <Route path="/HappenNowPage" component={HappenNowPage} />
+          <Route path="/ProfilPage" component={ProfilPage} />
+
         </Switch>
         
 
