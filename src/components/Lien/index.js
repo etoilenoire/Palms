@@ -2,9 +2,9 @@ import React from 'react'
 
 const url ="./Lien"
 
-const Lien = () => {
+const Lien = ({children}) => {
     return (
-        <a href={url}>Show All</a>
+        <a href={{children}}>Show All</a>
     )
 }
 
