@@ -1,0 +1,24 @@
+.carddeckcenter {
+    display: flex;
+    width: calc(100% + 60px);
+    overflow-y: overlay;
+    transform: translateX(-30px);
+    
+    /* display: flexbox;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: "#3D3D3D";  */
+}
+
+.cardbodycenter {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: "#3D3D3D";
+}
