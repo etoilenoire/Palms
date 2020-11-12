@@ -6,7 +6,7 @@ import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
-import HomePage from '../pages/HomePage';
+import HomePage from '../pages/Homepage';
 import Player from '../components/player';
 import ProfilPage from '../pages/ProfilPage';
 
