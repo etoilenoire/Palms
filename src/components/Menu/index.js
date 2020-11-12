@@ -33,9 +33,9 @@ const Menu = (props) => {
       tabs.map((tab, index) =>(
         <NavItem key={`tab-${index}`}>
           <NavLink to={tab.route} className="nav-link bottom-nav-link" activeClassName="active">
-              <div >
+              <div className="row d-flex flex-column justify-content-center align-items-center">
               <FontAwesomeIcon size="lg" icon={tab.icon}/>
-              <div >{tab.label}</div>
+              <div className="bottom-tab-label">{tab.label}</div>
             </div>
           </NavLink>
         </NavItem>

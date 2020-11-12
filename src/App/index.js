@@ -5,15 +5,10 @@ import Menu from '../components/Menu';
 import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
-
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-<<<<<<< HEAD
-import Player from "../components/player";
-=======
 import Banner from "../components/Banner";
-
->>>>>>> 25b8a1337472e236e96e231e2ef8a69cdf62c570
+import Player from "../components/Player";
 
 
 
