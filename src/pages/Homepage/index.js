@@ -19,6 +19,7 @@ const HomePage = (props) => {
             </div>
 
             <div classeName="Banner">
+            <Subtitle>A l'affiche</Subtitle>
                 <Banner />
             </div>
             
