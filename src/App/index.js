@@ -11,6 +11,7 @@ import HomePage from '../pages/HomePage';
 
 
 function App() {
+  console.log('test')
   return (
     <div>
       <BrowserRouter>
