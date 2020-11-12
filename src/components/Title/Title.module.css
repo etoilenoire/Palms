@@ -1,23 +1,24 @@
-/* .title {
-    font-size: 37px;
-    font-family: "Nexa Bold";
-    color: white;
-} */
-
 .title {
     display: inline-block;
     position: relative;
     font-size: 37px;
     font-family: "Nexa Bold";
     color: white;
+    top: 2px;
+    left: 21px;
   }
   .title::before {
     content: "";
     position: absolute;
-    width: 90%;
-    height: 50%;
-    top: 25px;
-    left: -30px;
-    background: rgb(202, 155, 221);
+    width: 122px;
+    height: 14px;
+    top: 29px;
+    left: -39px;
+    background: #CFB5C8;
     z-index: -1;
+  }
+  .dot {
+    font-size: 37px;
+    font-family: "Nexa Bold";
+    color: #CFB5C8;
   }
