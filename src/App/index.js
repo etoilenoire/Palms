@@ -36,7 +36,6 @@ function App() {
 
       
       </BrowserRouter>
-      <Banner/>
     </div>
   );
 }
