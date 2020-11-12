@@ -1,11 +1,11 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import LogIn from '../pages/LoginPage';
 import Signup from '../pages/SignUpPage';
-import HomePage from '../pages/HomePage';
 import Menu from '../components/Menu';
 import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
+import HomePage from '../pages/HomePage';
 
 
 
