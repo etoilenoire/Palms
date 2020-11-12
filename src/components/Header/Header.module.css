@@ -1,5 +1,22 @@
-<<<<<<< HEAD
-.header {
+.Rectangle{
+
+    display: grid;
+    grid-template-areas: ‘logo nav’;
+    grid-area: nav;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    justify-items: center;
+    /* width: 125px;
+    height: 25px;
+    background-color: rgb(202, 155, 221);
+    box-sizing: border-box; */
+}
+
+.profilepic {
+    display: block;
+}
+
+/* .header {
     margin: 0;
 }
 
@@ -19,23 +36,4 @@
 h1 {
     font-size: 37px;
     font-family: "Nexa Bold";
-    color: white;
-=======
-.Rectangle{
-
-    display: grid;
-    grid-template-areas: ‘logo nav’;
-    grid-area: nav;
-    grid-template-columns: repeat(4,auto);
-    align-items: center;
-    justify-items: center;
-    /* width: 125px;
-    height: 25px;
-    background-color: rgb(202, 155, 221);
-    box-sizing: border-box; */
-}
-
-.profilepic {
-    display: block;
->>>>>>> 2fc90be59d631809baa855de8c3e516ba98a59e1
-}
+    color: white; */
