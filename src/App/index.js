@@ -8,8 +8,12 @@ import LibraryPage from '../pages/LibraryPage';
 
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
+<<<<<<< HEAD
+import Player from "../components/player";
+=======
 import Banner from "../components/Banner";
 
+>>>>>>> 25b8a1337472e236e96e231e2ef8a69cdf62c570
 
 
 
@@ -30,13 +34,12 @@ function App() {
         </Switch>
         
 
-      
+        <Player />
 
       <Menu />
 
       
       </BrowserRouter>
-      <Banner/>
     </div>
   );
 }
