@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UrlBanner = "../../assets/images/museXgarorock.png"
+const UrlBanner = "https://cdn-www.konbini.com/fr/files/2013/06/Banniere.jpg"
 
 const Banner = () => {
     return (

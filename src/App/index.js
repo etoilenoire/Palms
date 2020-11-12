@@ -7,8 +7,8 @@ import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-import Banner from "../components/Banner";
-import Player from "../components/Player";
+import Player from '../components/Player'
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
     <div>
       <BrowserRouter>
 
-        <Switch>
+        {/* <Switch>
           <Route path="/homepage" component={HomePage} />
           <Route path="/StreamPage" component={StreamPage} />
           <Route path="/ResearchPage" component={ResearchPage} />
@@ -26,16 +26,15 @@ function App() {
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
           <Route path="/HappenNowPage" component={HappenNowPage} />       
-        </Switch>
+        </Switch> */}
         
 
-        <Player />
+        {/* <Player /> */}
 
       <Menu />
 
       
       </BrowserRouter>
-      <Banner/>
     </div>
   );
 }
