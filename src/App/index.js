@@ -7,9 +7,8 @@ import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-import Player from '../components/player'
-
-
+import Player from '../components/player';
+import ProfilPage from '../pages/ProfilPage';
 
 
 function App() {
@@ -19,13 +18,15 @@ function App() {
       <BrowserRouter>
 
         <Switch>
-          <Route path="/homepage" component={HomePage} />
+          <Route path="/HomePage" component={HomePage} />
           <Route path="/StreamPage" component={StreamPage} />
           <Route path="/ResearchPage" component={ResearchPage} />
           <Route path="/LibraryPage" component={LibraryPage} />
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
-          <Route path="/HappenNowPage" component={HappenNowPage} />       
+          <Route path="/HappenNowPage" component={HappenNowPage} />
+          <Route path="/ProfilPage" component={ProfilPage} />
+
         </Switch>
         
 
