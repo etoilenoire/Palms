@@ -5,7 +5,7 @@ import styles from './Header.module.css'
 
 const Header = ({children}) => {
     return (
-        <div class={styles.Rectangle}>
+        <div class={styles.rectangle}>
            <Title>{children}</Title>
            <ProfilePic />
         </div>

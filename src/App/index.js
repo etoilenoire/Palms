@@ -15,14 +15,15 @@ function App() {
     <div>
       <BrowserRouter>
 
-        <Switch>
+        {/* <Switch>
           <Route path="/HomePage" component={HomePage} />
           <Route path="/StreamPage" component={StreamPage} />
           <Route path="/ResearchPage" component={ResearchPage} />
           <Route path="/LibraryPage" component={LibraryPage} />
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
-        </Switch>
+        </Switch> */}
+        <LibraryPage/>
         
       
       <Menu />
