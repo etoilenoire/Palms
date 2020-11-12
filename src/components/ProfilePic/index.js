@@ -7,11 +7,7 @@ const UrlImage = "https://i.pinimg.com/originals/27/3c/43/273c4341356729b7d4ad25
 
 const ProfilePic = () => {
     return (
-<<<<<<< HEAD
-        <img src={UrlImage} className={styles.img} alt=""/>
-=======
         <a href='/ProfilePage'><img src={UrlImage} className={styles.Img} alt=""/> </a>
->>>>>>> 2fc90be59d631809baa855de8c3e516ba98a59e1
     )
 }
 
