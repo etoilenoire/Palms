@@ -11,6 +11,7 @@ const HappenNowPage = (props) => {
             <Header>Happening now.</Header>
             <Subtitle>NOW LIVE</Subtitle>
             <CardHappnNow />
+            
         </div>
     )
 
