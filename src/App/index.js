@@ -5,12 +5,8 @@ import Menu from '../components/Menu';
 import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
-<<<<<<< HEAD
 import HappenNowPage from "../pages/HappenNowPage";
-=======
 import HomePage from '../pages/HomePage';
->>>>>>> 172a5a32a2318b61f7cbd38d3868a0722c885100
-
 
 
 
