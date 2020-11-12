@@ -1,6 +1,4 @@
-/* Global styles */
-
-/* variables */
+/* Fonts */
 
 @font-face {
   font-family: "Nexa Bold";
@@ -11,8 +9,11 @@
   src: url("./assets/fonts/Nexa Light.otf");
 }
 
+
+/* Global styles */
+
 body {
-  margin: 40px;
+  margin: 0;
   padding: 0;
   background-color: #1F1F1F;
   font-family: "Nexa Bold";
