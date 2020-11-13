@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../Homepage/HomePage.module.css'
+import styles from './StreamPage.module.css'
 import Header from '../../components/Header'
 import Menu from '../../components/Menu'
 import CardArtist from '../../components/CardArtist'
@@ -13,27 +13,27 @@ const StreamPage = () => {
             <Header>Stream.</Header>
             <div >
                 <div >
-                    <div>
+                    <div className={styles.oui}>
                         <CardConcert className={styles.cardConcert}/>
                         <CardArtist />
                     </div>
 
-                    <div>
+                    <div className={styles.oui}>
                         <CardConcert className={styles.cardConcert}/>
                         <CardArtist />
                     </div>
 
-                    <div>
+                    <div className={styles.oui}>
                         <CardConcert className={styles.cardConcert}/>
                         <CardArtist />
                     </div>
 
-                    <div>
+                    <div className={styles.oui}>
                         <CardConcert className={styles.cardConcert}/>
                         <CardArtist />
                     </div>
 
-                    <div>
+                    <div className={styles.oui}>
                         <CardConcert className={styles.cardConcert}/>
                         <CardArtist />
                     </div>

@@ -23,7 +23,7 @@
     padding: 10px;
     margin: 5px;
     background-color: #4E4E4E;
-    
+    width: 150px;;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -39,4 +39,8 @@
 
   .cardConcert {
     font-size: 16px;
+  }
+
+  h2 {
+    margin: 0;
   }
