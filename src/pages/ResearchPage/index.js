@@ -9,7 +9,7 @@ const ResearchPage = () => {
     return (
         <div>
             <Header>Search.</Header>
-            <Input />
+            <Input type="text"/>
 
             <Menu />
         </div>

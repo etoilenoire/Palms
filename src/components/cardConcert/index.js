@@ -1,7 +1,7 @@
 import React from 'react'
 //import Photo from '../Photo'
-import NomArtist from '../NomArtist'
-import NomConcert from '../NomConcert'
+//import NomArtist from '../NomArtist'
+//import NomConcert from '../NomConcert'
 import Add from '../Add+'
 import {
     CardDeck, Card, CardImg, CardBody,
@@ -17,8 +17,8 @@ const CardConcert = () => {
                 <Card style={{backgroundColor: "#3D3D3D"}}>
                     <CardImg/>
                         <CardBody className={styles.cardbodycenter}>
-                            <CardTitle tag="h5"><NomConcert /></CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted"> performed by <NomArtist/> </CardSubtitle>
+                            <CardTitle tag="h5">487fck7</CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted"> performed by Dua Lipa </CardSubtitle>
                             <Button>Join now</Button>
                             <Add/>
                         </CardBody>
