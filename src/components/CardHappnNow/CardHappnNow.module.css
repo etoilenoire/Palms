@@ -1,5 +1,6 @@
 .Card{
     width: 100%;
+    opacity: 70%;
 }
 
 
@@ -11,4 +12,9 @@ background-color: lightblue;
 
 .div {
     background-color: #1F1F1F;
+}
+
+.black{
+    color:black;
+    font-style: bold;
 }
