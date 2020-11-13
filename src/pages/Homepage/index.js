@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import Banner from '../../components/Banner'
-import CardArtist from '../../components/cardArtist';
-import CardConcert from '../../components/cardConcert';
+import CardArtist from '../../components/CardArtist';
+import CardConcert from '../../components/CardConcert';
 import Header from '../../components/Header'
 // import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'
@@ -23,12 +23,12 @@ const HomePage = (props) => {
                         <CardConcert />
                         <CardConcert />
                     </div>
-                <Link to="../HappenNowPage">Show All</Link>
+                <Link className={styles.showAll} to="../HappenNowPage">Show All</Link>
             </div>
 
           <Banner />
             
-            <div className="TrendNow">
+            <div className={styles.box}>
                 <Subtitle>Trends.</Subtitle>
                     <div className={styles.carousel}>
                         <CardArtist />
@@ -39,8 +39,8 @@ const HomePage = (props) => {
                         <CardArtist />
 
                     
-                    </div> 
-                <Link to="../TrendsNowPage">Show All</Link>
+                    </div>
+                <Link className={styles.showAll} to="../TrendsNowPage">Show All</Link>
             </div>
 
          <Menu />

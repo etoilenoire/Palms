@@ -35,9 +35,11 @@ code {
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 18px;
     font-family: "Nexa Bold";
     color: white;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 h3 {

@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './LibraryPage.module.css'
 import Button from '../../components/Button'
 import Header from '../../components/Header'
 import Menu from '../../components/Menu'
@@ -11,8 +12,8 @@ const LibraryPage = () => {
         <div>
           <Header>Bibliothèque.</Header>
             <div>
-                <Button>Playlist.</Button>
-                <Button>Artists.</Button>
+                <button className={styles.libraryButton} >Playlist.</button>
+                <button className={styles.libraryButton}>Artists.</button>
 
                 <ListGroup>
                   <ListGroupItem tag="a" href='../../Tracks/probaly.mp3' action>probably</ListGroupItem>
