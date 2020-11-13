@@ -7,9 +7,10 @@ import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/Homepage';
-import ProfilPage from '../pages/ProfilPage';
+
 import Spotify from "../components/Spotify";
 import Player from "../components/Player";
+import ProfilPage from "../pages/ProfilPage";
 
 //import SpotifyProvider from "../components/SpotifyProvider";
 //import SpotifyWebPlayer from "react-spotify-web-playback/lib";
