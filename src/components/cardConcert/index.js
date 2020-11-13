@@ -1,20 +1,21 @@
 import React from 'react'
-import NomConcert from '../NomConcert'
-import Add from '../Add+'
-import {
-    CardDeck, Card, CardImg, CardBody,
-    CardTitle, CardSubtitle, Button
-  } from 'reactstrap';
-  import styles from './CardConcert.module.css'
-import NomArtist from '../NomArtist';
+// import NomConcert from '../NomConcert'
+// import Add from '../Add+'
+// import {
+//     CardDeck, Card, CardImg, CardBody,
+//     CardTitle, CardSubtitle, Button
+//   } from 'reactstrap';
+import styles from './CardConcert.module.css'
+//import NomArtist from '../NomArtist';
 import Photo from '../Photo';
 import Subtitle from '../SubTitle';
+
 
 
 const CardConcert = () => {
     return (
         <div>
-            <CardDeck >
+            {/* <CardDeck >
                 <Card style={{backgroundColor: "#3D3D3D"}}>
                     <CardImg/>
                         <CardBody className={styles.cardbodycenter}>
@@ -28,7 +29,15 @@ const CardConcert = () => {
                 </Card>
 
 
-            </CardDeck>
+            </CardDeck> */}
+
+            <div class="cardd">
+                <Photo className={styles.card}/>
+                    <div className={styles.container}>
+                        <Subtitle>Artist</Subtitle>
+                        <p style={{color: "white"}}>Album</p>
+                    </div>
+            </div>
         
         </div>
     )
