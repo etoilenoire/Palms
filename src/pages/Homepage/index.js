@@ -23,7 +23,7 @@ const HomePage = (props) => {
                         <CardConcert />
                         <CardConcert />
                     </div>
-                <Link to="../HappenNowPage">Show All</Link>
+                <Link className={styles.showAll} to="../HappenNowPage">Show All</Link>
             </div>
 
           <Banner />
@@ -31,7 +31,7 @@ const HomePage = (props) => {
             <div className="TrendNow">
                 <Subtitle>Trends.</Subtitle>
                 {/* <CardArtist /> */}
-                <Link to="../TrendsNowPage">Show All</Link>
+                <Link className={styles.showAll} to="../TrendsNowPage">Show All</Link>
             </div>
 
          <Menu />

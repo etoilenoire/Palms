@@ -7,3 +7,8 @@
     width: 100%;
     overflow-y: overlay;
 }
+
+.showAll {
+    font-size: 11px;
+    color: white;
+}
