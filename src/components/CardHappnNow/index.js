@@ -16,10 +16,10 @@ const CardHappnNow = (props) => {
         </Card>
 
         <Card inverse>
-          <CardImg width="25%" src="https://linkstorage.linkfire.com/medialinks/images/5fd743fd-9c43-4ece-bde8-3416fbec8baf/artwork-440x440.jpg" className={styles.Card} />
+          <CardImg width="25%" src="https://www.sortiraparis.com/images/1001/1665/604359-dua-lipa-presente-studio-2054-un-concert-virtuel-a-suivre-en-live-streaming.jpg" className={styles.Card} />
           <CardImgOverlay>
-            <CardTitle tag="h5">.</CardTitle>
-            <CardText> .  </CardText>
+            <CardTitle tag="h5">2054</CardTitle>
+            <CardText>Dua Lipa</CardText>
             <button className={styles.Button}>Join Live 🔴</button>
           </CardImgOverlay>
         </Card>
