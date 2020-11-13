@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import Banner from '../../components/Banner'
+import CardConcert from '../../components/CardConcert';
 // import CardArtist from '../../components/CardArtist';
-// import CardConcert from '../../components/CardConcert';
 import Header from '../../components/Header'
 // import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'
@@ -15,7 +15,14 @@ const HomePage = (props) => {
          <Header>Home</Header>
             <div className={styles.box}>
                 <Subtitle>Happening now.</Subtitle>
-                {/* <CardConcert /> */}
+                    <div className={styles.carousel}>
+                        <CardConcert />
+                        <CardConcert />
+                        <CardConcert />
+                        <CardConcert />
+                        <CardConcert />
+                        <CardConcert />
+                    </div>
                 <Link to="../HappenNowPage">Show All</Link>
             </div>
 
