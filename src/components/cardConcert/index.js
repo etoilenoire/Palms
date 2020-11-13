@@ -31,7 +31,7 @@ const CardConcert = () => {
 
             </CardDeck> */}
 
-            <div class="cardd">
+            <div class={styles.cardd}>
                 <Photo className={styles.card}/>
                     <div className={styles.container}>
                         <Subtitle className={styles.cardConcert}>Artist</Subtitle>
