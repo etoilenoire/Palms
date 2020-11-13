@@ -9,7 +9,10 @@ const Title = ({children}) => {
   const pageClassName = styles[`style-${currentPath}`]
 
     return (
+      <div>
     <h1 className={styles.title}>{children}</h1>
+    <pageClassName>{pageClassName}</pageClassName>
+    </div>
     )
   }
   
