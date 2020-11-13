@@ -7,7 +7,7 @@ import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/HomePage';
-import Player from '../components/player';
+import Player from '../components/Player';
 import ProfilPage from '../pages/ProfilPage';
 
 
