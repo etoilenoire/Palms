@@ -9,7 +9,6 @@ import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/Homepage';
 import ProfilPage from '../pages/ProfilPage';
 import Spotify from "../components/Spotify";
-import Player from "../components/Player";
 
 //import SpotifyProvider from "../components/SpotifyProvider";
 //import SpotifyWebPlayer from "react-spotify-web-playback/lib";
