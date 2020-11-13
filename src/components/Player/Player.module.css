@@ -1,14 +1,37 @@
 .player {
-    position: fixed;
+    /* position: fixed;
     left: 0;
-    bottom: 1;
     width: 375px;
     height: 48px;
-    background-color: #F1F3F4;
+    background-color:#3d3d3d;
     opacity: 50%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    z-index: 999;
+    display: flex;
+    z-index:1000;
+    
+    
+    
+    height: 48px;
+    
+    position: relative; */
+    background-color:whitesmoke;
+    width: 100%;
+    position:fixed;
+	bottom: auto;
+	left:0;
+	right:0;
+	z-index:1000;
+	
+
+	will-change:transform;
+	transform: translateZ(0);
+	
+	display:table;	
+	
+    height:50px;
+    box-sizing: border-box;
+
 }

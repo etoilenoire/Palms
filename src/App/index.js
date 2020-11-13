@@ -37,11 +37,11 @@ function App() {
         
         
        
+      <div>
       <Player/>
-        
-        
-        
       <Menu />
+      </div>
+
 
       
       </BrowserRouter>
