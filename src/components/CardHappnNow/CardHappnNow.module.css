@@ -2,9 +2,11 @@
     width: 40%;
 }
 
+
+
 .Button{
-background-color: aquamarine;
-border-radius:43px;
+border-radius:43px; 
+background-color: lightblue;
 }
 
 .div {
