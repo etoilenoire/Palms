@@ -1,5 +1,6 @@
-.Card{
-    width: 100%;
+.cardConcert{
+    width: 50%;
+    background-color: transparent;
 }
 
 
@@ -10,5 +11,5 @@ background-color: lightblue;
 }
 
 .div {
-    background-color: #1F1F1F;
+    background-color: transparent;
 }

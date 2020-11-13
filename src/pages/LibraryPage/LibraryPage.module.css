@@ -7,3 +7,12 @@
     margin-left: 35px;
     margin-bottom: 20px;
 }
+
+.libraryList {
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 19px;
+}
