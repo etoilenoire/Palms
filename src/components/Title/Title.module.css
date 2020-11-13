@@ -22,3 +22,16 @@
     font-family: "Nexa Bold";
     color: #CFB5C8;
   }
+
+  .style_HomePage {
+    color : #CFB5C8;
+  }
+  .style_StreamPage {
+    color : #92C2C8;
+  }
+  .style_ResearchPage {
+    color : #B2DAAE;
+  }
+  .style_LibraryPage {
+    color : #E5D18B;
+  }

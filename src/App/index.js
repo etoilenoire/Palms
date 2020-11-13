@@ -6,13 +6,8 @@ import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
-<<<<<<< HEAD
-import HomePage from '../pages/HomePage';
-import Player from '../components/Player';
-=======
 import HomePage from '../pages/Homepage';
-import Player from '../components/player';
->>>>>>> 46f11d9859f7fc2c1ee534e29991acc29c2f43ad
+import Player from '../components/Player';
 import ProfilPage from '../pages/ProfilPage';
 import Spotify from "../components/Spotify";
 import SpotifyProvider from "../components/SpotifyProvider";
@@ -41,13 +36,9 @@ function App() {
         
         <SpotifyProvider />
 
-<<<<<<< HEAD
-        {/* <Player /> */}
-=======
         <Spotify />
 
         <SpotifyWebPlayer />
->>>>>>> 46f11d9859f7fc2c1ee534e29991acc29c2f43ad
 
         <Player />
         

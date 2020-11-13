@@ -1,22 +1,22 @@
-/* <nav className="navbar fixed-bottom navbar-light bottom-tab-nav" role="navigation">
-<Nav className="w-100">
-  <div className=" d-flex flex-row justify-content-around w-100">
-    {
-      tabs.map((tab, index) =>(
-        <NavItem key={`tab-${index}`}>
-          <NavLink to={tab.route} className="nav-link bottom-nav-link" activeClassName="active">
-              <div className="row d-flex flex-column justify-content-center align-items-center">
-              <FontAwesomeIcon size="lg" icon={tab.icon}/>
-              <div className="bottom-tab-label">{tab.label}</div>
-            </div>
-          </NavLink>
-        </NavItem>
-      ))
-    }
-  </div>
-</Nav>
-</nav> */
+.menu {
+  background-color: #3D3D3D;
+  border-top: 1px;
+  border-top : #CFB5C8;
+}
 
-.menuBouton {
-    color: aquamarine;
+.item {
+  color: white;
+}
+
+.active-item-home:hover {
+  color : #CFB5C8;
+}
+.active-item-stream:hover {
+  color : #92C2C8;
+}
+.active-item-search:hover {
+  color : #B2DAAE;
+}
+.active-item-library:hover {
+  color : #E5D18B;
 }
