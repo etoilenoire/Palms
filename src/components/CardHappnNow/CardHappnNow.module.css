@@ -1,15 +1,24 @@
-.cardConcert{
-    width: 50%;
-    background-color: transparent;
+.Card{
+    width: 100%;
+    opacity: 70%;
 }
-
-
 
 .Button{
 border-radius:43px; 
-background-color: lightblue;
+background-color: black;
+color: white;
+opacity: 100%;
+align-items: center;
 }
 
 .div {
-    background-color: transparent;
+    background-color: #1F1F1F;
+}
+
+.black{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    font-style: bold;
+    margin-top: 20px;
 }

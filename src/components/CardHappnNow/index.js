@@ -9,26 +9,26 @@ const CardHappnNow = (props) => {
         <Card inverse>
           <CardImg width="25%" src="https://upload.wikimedia.org/wikipedia/en/c/c3/Yung_Lean_Starz_Cover.png" className={styles.cardConcert} alt="Starz Cover" />
           <CardImgOverlay>
-            <CardTitle tag="h5">STARZ</CardTitle>
-            <CardText>Yung Lean</CardText>
+            <CardTitle tag="h5" className={styles.black}>STARZ</CardTitle>
+            <CardText className={styles.black}>Yung Lean</CardText>
             <button className={styles.Button}>Join Live 🔴</button>
           </CardImgOverlay>
         </Card>
 
         <Card inverse>
-          <CardImg width="25%" src="https://www.sortiraparis.com/images/1001/1665/604359-dua-lipa-presente-studio-2054-un-concert-virtuel-a-suivre-en-live-streaming.jpg" className={styles.cardConcert} />
+          <CardImg width="25%" src="https://cdn1.theyoungfolks.com/wp-content/uploads/2017/07/23141437/Flower-Boy-770x775.jpg" className={styles.Card} />
           <CardImgOverlay>
-            <CardTitle tag="h5">2054</CardTitle>
-            <CardText>Dua Lipa</CardText>
+            <CardTitle tag="h5" className={styles.black}>Flower Boy</CardTitle>
+            <CardText className={styles.black}>Tyler, the Creator</CardText>
             <button className={styles.Button}>Join Live 🔴</button>
           </CardImgOverlay>
         </Card>
 
         <Card inverse>
-          <CardImg width="25%" src="https://i.pinimg.com/originals/52/56/58/5256583c0e5791b7266176e339653b60.jpg" className={styles.cardConcert} alt="Starz Cover" />
+          <CardImg width="25%" src="https://i.pinimg.com/originals/52/56/58/5256583c0e5791b7266176e339653b60.jpg" className={styles.Card} alt="Starz Cover" />
           <CardImgOverlay>
-            <CardTitle tag="h5">Pretty Girl</CardTitle>
-            <CardText>Clairo</CardText>
+            <CardTitle tag="h5" className={styles.black}>Pretty Girl</CardTitle>
+            <CardText className={styles.black}>Clairo</CardText>
             <button className={styles.Button}>Join Live 🔴</button>
           </CardImgOverlay>
         </Card>
