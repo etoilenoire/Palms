@@ -30,7 +30,7 @@ function App() {
           <Route path="/SignUpPage" component={Signup} />
           <Route path="/LoginPage" component={LogIn} />       
           <Route path="/HappenNowPage" component={HappenNowPage} />
-          <Route path="/profilpage" component={ProfilPage} />
+          <Route path="/ProfilPage" component={ProfilPage} />
           <Route path="/Spotify" component={Spotify} />
           
 
