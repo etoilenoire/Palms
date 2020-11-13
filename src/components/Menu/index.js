@@ -4,7 +4,6 @@ import { Nav, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHome, faStream, faMusic } from '@fortawesome/free-solid-svg-icons';
-import Player from '../Player';
 
 
 const tabs = [{
@@ -33,7 +32,7 @@ const Menu = (props) => {
   return (
     <>
       <div>
-        <Player/>
+        
       </div>
 
       <nav className={`navbar fixed-bottom navbar-light bottom-tab-nav ${styles.menu}`} role="navigation">
