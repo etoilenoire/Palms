@@ -8,7 +8,7 @@ import Subtitle from '../../components/SubTitle'
 const HappenNowPage = (props) => {
     return (
         <div>
-            <Header>Happening now.</Header>
+            <Header>Lives</Header>
             <Subtitle>NOW LIVE</Subtitle>
             <CardHappnNow />
             

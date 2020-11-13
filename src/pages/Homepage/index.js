@@ -39,7 +39,7 @@ const HomePage = (props) => {
                         <CardArtist />
 
                     
-                    </div>
+                    </div> 
                 <Link to="../TrendsNowPage">Show All</Link>
             </div>
 
