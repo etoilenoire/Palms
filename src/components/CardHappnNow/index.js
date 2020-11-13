@@ -11,7 +11,7 @@ const CardHappnNow = (props) => {
           <CardImgOverlay>
             <CardTitle tag="h5">STARZ</CardTitle>
             <CardText>Yung Lean</CardText>
-            <button className={styles.Button}>Join Live</button>
+            <button className={styles.Button}>Join Live 🔴</button>
           </CardImgOverlay>
         </Card>
       </div>
