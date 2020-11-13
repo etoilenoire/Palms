@@ -9,6 +9,9 @@ import HappenNowPage from '../pages/HappenNowPage';
 import HomePage from '../pages/Homepage';
 import Player from '../components/player';
 import ProfilPage from '../pages/ProfilPage';
+import Spotify from "../components/Spotify";
+import SpotifyProvider from "../components/SpotifyProvider";
+import SpotifyWebPlayer from "react-spotify-web-playback/lib";
 
 
 function App() {
@@ -29,9 +32,17 @@ function App() {
 
         </Switch>
         
+        
+        
+        <SpotifyProvider />
+
+        <Spotify />
+
+        <SpotifyWebPlayer />
 
         <Player />
-
+        
+        
       <Menu />
 
       
@@ -40,4 +51,5 @@ function App() {
   );
 }
 
-export default App 
+
+export default App;

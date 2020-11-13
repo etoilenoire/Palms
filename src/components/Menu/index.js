@@ -21,7 +21,7 @@ const tabs = [{
   route: "/librarypage",
   icon: faStream,
   label: "Bibliothèques"
-}]
+},]
 
 const Menu = (props) => {
   return (
