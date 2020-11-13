@@ -8,6 +8,7 @@ import SpotifyWebApi from 'spotify-web-api-js';
 
 const spotifyApi = new SpotifyWebApi();
 
+
 const SpotifyProvider = ({ clientId, redirectUri, children }) => {
   useLoadSdk()
   const token = useToken({ clientId, redirectUri })
@@ -34,7 +35,7 @@ const SpotifyProvider = ({ clientId, redirectUri, children }) => {
 
 SpotifyProvider.propTypes = {
   clientId: PropTypes.string.isRequired,
-  redirectUri: PropTypes.string.isRequired
+  redirectUri: PropTypes.string.isRequired,
 }
 
 export const SpotifyContext = Context
