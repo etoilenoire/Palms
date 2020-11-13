@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Subtitle from '../../components/SubTitle'
-
+import styles from './ProfilPage.module.css'
+import Button from '../../components/Button'
 
 
 const ProfilPage = () => {
@@ -11,9 +12,9 @@ const ProfilPage = () => {
             <Header>Your profile</Header>
             <div>
                 <Subtitle> My preferences </Subtitle>
-                <button>Notifications</button>
-                <button>Qualité</button>
-                <button>Account</button>
+                <Button>Notifications</Button>
+                <Button>Qualité</Button>
+                <Button>Account</Button>
             </div>
 
             <div>    
@@ -22,13 +23,13 @@ const ProfilPage = () => {
 
             <br></br>
 
-            <button>PREMIUM GO</button>
-            <button>Help</button>
+            <Button>PREMIUM GO</Button>
+            <Button>Help?</Button>
             
             <br></br>
             <br></br>
 
-            <button>Sign out</button>
+            <Button classname={styles.centerSignOut}> Sign out </Button>
             </div>
 
         </div>

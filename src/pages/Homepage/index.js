@@ -1,8 +1,13 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import Banner from '../../components/Banner'
+<<<<<<< HEAD
 import CardArtist from '../../components/cardArtist';
 import CardConcert from '../../components/cardConcert';
+=======
+import CardConcert from '../../components/CardConcert';
+// import CardArtist from '../../components/CardArtist';
+>>>>>>> 37b09138eada90fd7653c4da633a8e4d95087afa
 import Header from '../../components/Header'
 // import Lien from '../../components/Lien'
 import Menu from '../../components/Menu'

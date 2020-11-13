@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 banner {
     max-width: 100%;
     height: auto;
     display: grid;
     object-fit: cover;
+=======
+.banner {
+    width: 100%;
+>>>>>>> 37b09138eada90fd7653c4da633a8e4d95087afa
 }
