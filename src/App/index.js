@@ -6,9 +6,17 @@ import ResearchPage from '../pages/ResearchPage';
 import StreamPage from '../pages/StreamPage';
 import LibraryPage from '../pages/LibraryPage';
 import HappenNowPage from '../pages/HappenNowPage';
+<<<<<<< HEAD
 import HomePage from '../pages/HomePage';
 import Player from '../components/Player';
+=======
+import HomePage from '../pages/Homepage';
+import Player from '../components/player';
+>>>>>>> 46f11d9859f7fc2c1ee534e29991acc29c2f43ad
 import ProfilPage from '../pages/ProfilPage';
+import Spotify from "../components/Spotify";
+import SpotifyProvider from "../components/SpotifyProvider";
+import SpotifyWebPlayer from "react-spotify-web-playback/lib";
 
 
 function App() {
@@ -29,9 +37,21 @@ function App() {
 
         </Switch>
         
+        
+        
+        <SpotifyProvider />
 
+<<<<<<< HEAD
         {/* <Player /> */}
+=======
+        <Spotify />
 
+        <SpotifyWebPlayer />
+>>>>>>> 46f11d9859f7fc2c1ee534e29991acc29c2f43ad
+
+        <Player />
+        
+        
       <Menu />
 
       
@@ -40,4 +60,5 @@ function App() {
   );
 }
 
-export default App 
+
+export default App;
