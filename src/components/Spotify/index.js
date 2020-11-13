@@ -3,7 +3,6 @@ import SpotifyWebPlayer from 'react-spotify-web-playback/lib';
 //import SpotifyWebPlayer from 'react-spotify-web-playback/lib'
 import SpotifyProvider from '../SpotifyProvider'
 import Title from '../Title';
-import Tracks from './Tracks';
 
 
 const spotifyClientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID
@@ -17,7 +16,6 @@ const Spotify = () => {
             clientId= {spotifyClientId}
             spotifyRedirectUri= {spotifyRedirectUri}>
         
-        <Tracks />
         </SpotifyProvider>
 
         <SpotifyWebPlayer styles={{

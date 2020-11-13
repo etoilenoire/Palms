@@ -12,6 +12,8 @@ const LibraryPage = () => {
             <div>
                 <Button>Playlist.</Button>
                 <Button>Artists.</Button>
+
+                
             </div>
           <Menu />
         </div>
