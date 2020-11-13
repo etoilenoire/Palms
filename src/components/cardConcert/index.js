@@ -18,7 +18,7 @@ const CardConcert = () => {
                     <CardImg/>
                         <CardBody className={styles.cardbodycenter}>
                             <CardTitle tag="h5"><NomConcert /></CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted"> performed by <NomArtist /> </CardSubtitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted"> performed by <NomArtist/> </CardSubtitle>
                             <Button>Join now</Button>
                             <Add/>
                         </CardBody>
