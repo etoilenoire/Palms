@@ -1,13 +1,14 @@
 import React from 'react'
-//import Photo from '../Photo'
-//import NomArtist from '../NomArtist'
-//import NomConcert from '../NomConcert'
+import NomConcert from '../NomConcert'
 import Add from '../Add+'
 import {
     CardDeck, Card, CardImg, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
   import styles from './CardConcert.module.css'
+import NomArtist from '../NomArtist';
+import Photo from '../Photo';
+import Subtitle from '../SubTitle';
 
 
 const CardConcert = () => {
@@ -17,8 +18,10 @@ const CardConcert = () => {
                 <Card style={{backgroundColor: "#3D3D3D"}}>
                     <CardImg/>
                         <CardBody className={styles.cardbodycenter}>
-                            <CardTitle tag="h5">487fck7</CardTitle>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted"> performed by Dua Lipa </CardSubtitle>
+                            <CardTitle tag="h3"><NomConcert/></CardTitle>
+                            <Photo className={{width: 10}}/>
+                            <Subtitle>Yung Lean</Subtitle>
+                            <CardSubtitle tag="h3" className="mb-2 text-muted"> <NomArtist /> </CardSubtitle>
                             <Button>Join now</Button>
                             <Add/>
                         </CardBody>

@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './Photo.module.css'
 
-const UrlImage = "https://i.pinimg.com/originals/27/3c/43/273c4341356729b7d4ad25e87d2beeb6.jpg"
+const UrlImage = "https://m.media-amazon.com/images/I/618-qJOv2NL._SS500_.jpg"
 
 const Photo = () => {
     return (
-        <img src={UrlImage} alt="" />
+        <img src={UrlImage} alt="" className={styles.photo}/>
     )
 }
 
