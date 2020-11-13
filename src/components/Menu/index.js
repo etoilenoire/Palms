@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Menu.module.css';
-import { Nav, Navbar, NavItem} from 'reactstrap';
+import { Nav, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHome, faStream, faMusic } from '@fortawesome/free-solid-svg-icons';

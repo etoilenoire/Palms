@@ -28,8 +28,7 @@ const Spotify = () => {
     savedColor: '#fff',
     trackArtistColor: '#ccc',
     trackNameColor: '#fff',
-  }} token="BQAzxZfj0eE8s8r5w0x-3C8uRaMYkrD3zRBsDEC64F2Hb7PDngvldOZcHGTPGsF2Y-nQGVmlzFdbPWT3DtDZR1VQ8En7YQ6fE01c9_rWejPasANE9t9uz3Yz2_ckFpPfD3eeoUJVyUpD67iroEWzUQaNRLFD97TNTJcod1AiprinJ49xk5U"
-uris={['spotify:track:6rqhFgbbKwnb9MLmUQDhG6']}/>
+  }}/>
 
 
 </div>
